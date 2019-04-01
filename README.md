@@ -1,6 +1,7 @@
 # Circle-Rotate
 通过转盘的数量,来计算需要旋转到的角度.我这里是有 12个 旋转的位置, 故 360/12 = 30..  所以,以30度为一个单位,进行偏移计算
 核心思路:设置偏转角所要停留的位置,将其偏移角进行记录
+```
 float SetRotateAngle(int value)
     {
         float rotateAngle = .0f;
@@ -71,3 +72,4 @@ float SetRotateAngle(int value)
         }
         return rotateAngle;
     }            
+```
